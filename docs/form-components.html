@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 3 Form Components | Web Forms Style Guide</title>
+  <meta name="description" content="This is a handbook of best practices and style suggestions for web forms." />
+  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 3 Form Components | Web Forms Style Guide" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="This is a handbook of best practices and style suggestions for web forms." />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 3 Form Components | Web Forms Style Guide" />
+  
+  <meta name="twitter:description" content="This is a handbook of best practices and style suggestions for web forms." />
+  
+
+<meta name="author" content="Deirdre Moore" />
+
+
+<meta name="date" content="2022-02-17" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="formDesign.html"/>
+<link rel="next" href="methods.html"/>
+<script src="libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">A Minimal Book Example</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introduction</a></li>
+<li class="chapter" data-level="2" data-path="formDesign.html"><a href="formDesign.html"><i class="fa fa-check"></i><b>2</b> Form Design</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="formDesign.html"><a href="formDesign.html#best-practices"><i class="fa fa-check"></i><b>2.1</b> Best Practices</a>
+<ul>
+<li class="chapter" data-level="2.1.1" data-path="formDesign.html"><a href="formDesign.html#make-forms-as-short-as-possible"><i class="fa fa-check"></i><b>2.1.1</b> Make forms as short as possible</a></li>
+<li class="chapter" data-level="2.1.2" data-path="formDesign.html"><a href="formDesign.html#multiple-screens-or-a-single-page"><i class="fa fa-check"></i><b>2.1.2</b> Multiple screens or a single page?</a></li>
+<li class="chapter" data-level="2.1.3" data-path="formDesign.html"><a href="formDesign.html#keep-a-single-column-format"><i class="fa fa-check"></i><b>2.1.3</b> Keep a single column format</a></li>
+<li class="chapter" data-level="2.1.4" data-path="formDesign.html"><a href="formDesign.html#principles-for-deciding-question-order"><i class="fa fa-check"></i><b>2.1.4</b> Principles for Deciding Question Order</a></li>
+<li class="chapter" data-level="2.1.5" data-path="formDesign.html"><a href="formDesign.html#minimal-color"><i class="fa fa-check"></i><b>2.1.5</b> Minimal Color</a></li>
+<li class="chapter" data-level="2.1.6" data-path="formDesign.html"><a href="formDesign.html#form-must-be-accessible"><i class="fa fa-check"></i><b>2.1.6</b> Form must be accessible</a></li>
+<li class="chapter" data-level="2.1.7" data-path="formDesign.html"><a href="formDesign.html#pre-fill-fields-when-possible"><i class="fa fa-check"></i><b>2.1.7</b> Pre-fill fields when possible</a></li>
+<li class="chapter" data-level="2.1.8" data-path="formDesign.html"><a href="formDesign.html#use-progressive-disclosure-conditional-logic"><i class="fa fa-check"></i><b>2.1.8</b> Use Progressive disclosure (Conditional logic)</a></li>
+<li class="chapter" data-level="2.1.9" data-path="formDesign.html"><a href="formDesign.html#keep-tab-order-consistent-with-input-order"><i class="fa fa-check"></i><b>2.1.9</b> Keep tab order consistent with input order</a></li>
+<li class="chapter" data-level="2.1.10" data-path="formDesign.html"><a href="formDesign.html#distinguish-optional-and-required-fields"><i class="fa fa-check"></i><b>2.1.10</b> Distinguish Optional and Required fields:</a></li>
+<li class="chapter" data-level="2.1.11" data-path="formDesign.html"><a href="formDesign.html#align-fields"><i class="fa fa-check"></i><b>2.1.11</b> Align fields</a></li>
+<li class="chapter" data-level="2.1.12" data-path="formDesign.html"><a href="formDesign.html#section"><i class="fa fa-check"></i><b>2.1.12</b> </a></li>
+<li class="chapter" data-level="2.1.13" data-path="formDesign.html"><a href="formDesign.html#every-page-should-have-a-form-title-and-step-progress-for-multiple-page-forms"><i class="fa fa-check"></i><b>2.1.13</b> Every page should have a form title and step progress for multiple page forms</a></li>
+<li class="chapter" data-level="2.1.14" data-path="formDesign.html"><a href="formDesign.html#have-a-gateway-and-confirmation-screen"><i class="fa fa-check"></i><b>2.1.14</b> Have a gateway and confirmation screen</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="form-components.html"><a href="form-components.html"><i class="fa fa-check"></i><b>3</b> Form Components</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="form-components.html"><a href="form-components.html#component-types"><i class="fa fa-check"></i><b>3.1</b> Component Types</a>
+<ul>
+<li class="chapter" data-level="3.1.1" data-path="form-components.html"><a href="form-components.html#input-text-field"><i class="fa fa-check"></i><b>3.1.1</b> Input text field</a></li>
+<li class="chapter" data-level="3.1.2" data-path="form-components.html"><a href="form-components.html#radio-buttons"><i class="fa fa-check"></i><b>3.1.2</b> Radio Buttons</a></li>
+<li class="chapter" data-level="3.1.3" data-path="form-components.html"><a href="form-components.html#links"><i class="fa fa-check"></i><b>3.1.3</b> Links</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="methods.html"><a href="methods.html"><i class="fa fa-check"></i><b>4</b> Methods</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="methods.html"><a href="methods.html#math-example"><i class="fa fa-check"></i><b>4.1</b> math example</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="applications.html"><a href="applications.html"><i class="fa fa-check"></i><b>5</b> Applications</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="applications.html"><a href="applications.html#example-one"><i class="fa fa-check"></i><b>5.1</b> Example one</a></li>
+<li class="chapter" data-level="5.2" data-path="applications.html"><a href="applications.html#example-two"><i class="fa fa-check"></i><b>5.2</b> Example two</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="final-words.html"><a href="final-words.html"><i class="fa fa-check"></i><b>6</b> Final Words</a></li>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Web Forms Style Guide</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="form-components" class="section level1" number="3">
+<h1><span class="header-section-number">Chapter 3</span> Form Components</h1>
+<p><a href="https://uxplanet.org/the-anatomy-of-input-field-c3ef863e01d7" class="uri">https://uxplanet.org/the-anatomy-of-input-field-c3ef863e01d7</a></p>
+<div id="component-types" class="section level2" number="3.1">
+<h2><span class="header-section-number">3.1</span> Component Types</h2>
+<div id="input-text-field" class="section level3" number="3.1.1">
+<h3><span class="header-section-number">3.1.1</span> Input text field</h3>
+<div id="best-practices-1" class="section level4" number="3.1.1.1">
+<h4><span class="header-section-number">3.1.1.1</span> Best Practices:</h4>
+<div id="use-field-length-as-an-affordance" class="section level5" number="3.1.1.1.1">
+<h5><span class="header-section-number">3.1.1.1.1</span> Use field length as an affordance</h5>
+<p>Set the size of the text input box to the size of the response the user will provide.</p>
+</div>
+<div id="user-should-be-able-to-judge-the-state-of-the-field." class="section level5" number="3.1.1.1.2">
+<h5><span class="header-section-number">3.1.1.1.2</span> User should be able to judge the state of the field.</h5>
+<p>Field focus should be a visual cue – such as changing the color of the border or background of the selected input field, or simply showing the cursor in the input field. Think of it as a hint you leave users regarding where they are.</p>
+<p>Input field consists of the following parts:</p>
+<ol style="list-style-type: decimal">
+<li>Container/Border</li>
+<li>Label</li>
+<li>Placeholder/Input text</li>
+<li>Trailing icon (Optional element)</li>
+<li>Helper text/Error text (Optional element)</li>
+<li>Leading icon (Optional element)</li>
+</ol>
+</div>
+</div>
+<div id="container" class="section level4" number="3.1.1.2">
+<h4><span class="header-section-number">3.1.1.2</span> Container</h4>
+<p>Say something about the container</p>
+<div id="label" class="section level5" number="3.1.1.2.1">
+<h5><span class="header-section-number">3.1.1.2.1</span> Label</h5>
+<p>Use sentence case</p>
+</div>
+<div id="input-text-or-placeholder-text" class="section level5" number="3.1.1.2.2">
+<h5><span class="header-section-number">3.1.1.2.2</span> Input text or Placeholder text</h5>
+<p>Use placeholder text for instructions only e.g. Please select… or DD/MM/YYYY. There should be a very clear distinction between the placeholder itself and the value typed by the respondent. If there is not, the respondent might think that the fields with placeholders are already filled fields.</p>
+</div>
+<div id="icons" class="section level5" number="3.1.1.2.3">
+<h5><span class="header-section-number">3.1.1.2.3</span> Icons</h5>
+<p>Icons can be effective labels when they are easy to decipher, either because their meaning is clear or because they are familiar, such as the text formatting icons used on most text editor toolbars. When the meaning is not clear, icons are best paired with descriptive text. The icons are easy to visually scan and recognize, and the text provides additional clarity about the purpose of the control.
+<a href="https://www.webstyleguide.com/7-interface-design.html" class="uri">https://www.webstyleguide.com/7-interface-design.html</a></p>
+</div>
+<div id="help-text" class="section level5" number="3.1.1.2.4">
+<h5><span class="header-section-number">3.1.1.2.4</span> Help text</h5>
+<p>Position the help text between the label and the input field. Don’t use headings, labels or placeholder text for help text.</p>
+<p>Image from <a href="https://www.stylemanual.gov.au/content-types/forms#choose_accessible_form_inputs" class="uri">https://www.stylemanual.gov.au/content-types/forms#choose_accessible_form_inputs</a></p>
+</div>
+</div>
+</div>
+<div id="radio-buttons" class="section level3" number="3.1.2">
+<h3><span class="header-section-number">3.1.2</span> Radio Buttons</h3>
+<p>Radio buttons are used for mutually exclusive choices
+#### Best Practices:</p>
+<div id="all-options-should-be-visible." class="section level5" number="3.1.2.0.1">
+<h5><span class="header-section-number">3.1.2.0.1</span> All options should be visible.</h5>
+<p>Users must be able to scan and compare options to make an appropriate selection</p>
+</div>
+<div id="vertically-align-the-buttons" class="section level5" number="3.1.2.0.2">
+<h5><span class="header-section-number">3.1.2.0.2</span> Vertically align the buttons</h5>
+<p>When possible, arrange the radio buttons vertically for easier reading. If the choice is limited to binary or opposite (light/dark) options, then they can be aligned horizontally.</p>
+</div>
+</div>
+<div id="links" class="section level3" number="3.1.3">
+<h3><span class="header-section-number">3.1.3</span> Links</h3>
+<p>Links should open on a new window to preserve cursor position, and flow of form input</p>
+
+</div>
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="formDesign.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="methods.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/rstudio/bookdown-demo/edit/master/02-formComponents.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["webForms_guide.pdf", "webForms_guide.epub"],
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>
