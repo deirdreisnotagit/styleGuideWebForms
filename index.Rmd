@@ -1,0 +1,25 @@
+--- 
+title: "Web Forms Style Guide"
+author: "Deirdre Moore"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+documentclass: book
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+description: "This is a handbook of best practices and style suggestions for web forms."
+---
+
+# Introduction
+
+In their book Forms That Work, Caroline Jarrett and Gerry Gaffney define a form as a conversation between two parties.  The core function of a form is to ask questions and record answers given
+
+Users don’t want to fill out the form 
+
+Helpful, transparent short
+
+Who are Stanford’s users smart forced to complete
+
+What is a good form
+

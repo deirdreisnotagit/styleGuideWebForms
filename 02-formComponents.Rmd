@@ -1,0 +1,66 @@
+# Form Components
+
+
+
+
+https://uxplanet.org/the-anatomy-of-input-field-c3ef863e01d7
+
+## Component Types
+
+### Input text field
+
+
+#### Best Practices: 
+
+##### Use field length as an affordance 
+Set the size of the text input box to the size of the response the user will provide. 
+
+##### User should be able to judge the state of the field. 
+Field focus should be a visual cue – such as changing the color of the border or background of the selected input field, or simply showing the cursor in the input field. Think of it as a hint you leave users regarding where they are.
+
+Input field consists of the following parts:
+
+1. Container/Border
+1. Label
+1. Placeholder/Input text
+1. Trailing icon (Optional element)
+1. Helper text/Error text (Optional element)
+1. Leading icon (Optional element)
+
+#### Container 
+Say something about the container
+
+##### Label 
+Use sentence case
+
+##### Input text or Placeholder text 
+Use placeholder text for instructions only e.g. Please select… or DD/MM/YYYY. There should be a very clear distinction between the placeholder itself and the value typed by the respondent. If there is not, the respondent might think that the fields with placeholders are already filled fields.
+
+##### Icons
+Icons can be effective labels when they are easy to decipher, either because their meaning is clear or because they are familiar, such as the text formatting icons used on most text editor toolbars. When the meaning is not clear, icons are best paired with descriptive text. The icons are easy to visually scan and recognize, and the text provides additional clarity about the purpose of the control.
+https://www.webstyleguide.com/7-interface-design.html
+
+##### Help text 
+Position the help text between the label and the input field. Don’t use headings, labels or placeholder text for help text.
+
+
+Image from https://www.stylemanual.gov.au/content-types/forms#choose_accessible_form_inputs
+
+
+### Radio Buttons
+Radio buttons are used for mutually exclusive choices 
+#### Best Practices: 
+
+##### All options should be visible. 
+Users must be able to scan and compare options to make an appropriate selection 
+
+#####  Vertically align the buttons 
+When possible, arrange the radio buttons vertically for easier reading. If the choice is limited to binary or opposite (light/dark) options, then they can be aligned horizontally.  
+
+
+
+### Links
+Links should open on a new window to preserve cursor position, and flow of form input 
+
+
+
