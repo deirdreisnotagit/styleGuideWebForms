@@ -1,5 +1,6 @@
 --- 
 title: "Web Forms Style Guide"
+subtitle: "A handbook of best practices and style suggestions for web forms"
 author: "Deirdre Moore"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
@@ -8,18 +9,37 @@ documentclass: book
 bibliography: [book.bib, packages.bib]
 biblio-style: apalike
 link-citations: yes
-description: "This is a handbook of best practices and style suggestions for web forms."
+description: "Web Forms Style Guide"
 ---
 
 # Introduction
 
-In their book Forms That Work, Caroline Jarrett and Gerry Gaffney define a form as a conversation between two parties.  The core function of a form is to ask questions and record answers given
+In their book _Forms That Work_ , Caroline Jarrett and Gerry Gaffney define a form as "a web page that has boxes you can type into".
 
-Users don’t want to fill out the form 
+At its core, the function of a form is to ask questions and record answers given - it's a conversation between two parties.
 
-Helpful, transparent short
 
-Who are Stanford’s users smart forced to complete
+What makes a good form?
 
-What is a good form
+* Helpful
+* Transparent
+* Short
+
+Who fills out Stanford's forms (who are our users)?
+
+* Students
+* Faculty
+* Staff
+
+Can we make any assumptions ?  
+
+Is there any data on our users? 
+
+They are smart? 
+
+They skew young? 
+
+They WANT to fill out the form (or want the outcome anyway)? Committed to completion?
+
+
 

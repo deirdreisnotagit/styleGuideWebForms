@@ -13,12 +13,15 @@ https://uxplanet.org/the-anatomy-of-input-field-c3ef863e01d7
 #### Best Practices: 
 
 ##### Use field length as an affordance 
-Set the size of the text input box to the size of the response the user will provide. 
+Match the size of the text input box to the length of the response the user should provide. 
 
 ##### User should be able to judge the state of the field. 
-Field focus should be a visual cue – such as changing the color of the border or background of the selected input field, or simply showing the cursor in the input field. Think of it as a hint you leave users regarding where they are.
+Field focus should be a visual cue – such as changing the color of the border or background of the selected input field, or showing the cursor in the input field. Think of it as a hint you leave users regarding where they are.
 
-Input field consists of the following parts:
+##### Say something here like Use appropriate ddd and ssss 
+Specifying an appropriate type attribute (e.g. type="tel" for telephone number fields) will not only control what input is displayed, but also helps mobile devices select a keyboard layout suitable for entering that type of data.
+
+An input text field consists of the following parts:
 
 1. Container/Border
 1. Label
@@ -31,7 +34,7 @@ Input field consists of the following parts:
 Say something about the container
 
 ##### Label 
-Use sentence case
+Top line label improves speed of completion (easy to scan), label to the left improves accuracy. Use sentence case. 
 
 ##### Input text or Placeholder text 
 Use placeholder text for instructions only e.g. Please select… or DD/MM/YYYY. There should be a very clear distinction between the placeholder itself and the value typed by the respondent. If there is not, the respondent might think that the fields with placeholders are already filled fields.
@@ -57,10 +60,12 @@ Users must be able to scan and compare options to make an appropriate selection
 #####  Vertically align the buttons 
 When possible, arrange the radio buttons vertically for easier reading. If the choice is limited to binary or opposite (light/dark) options, then they can be aligned horizontally.  
 
+### Check Boxes
 
+### Dropdowns
 
 ### Links
 Links should open on a new window to preserve cursor position, and flow of form input 
-
+Should reflect state (visited, active, focus) 
 
 
