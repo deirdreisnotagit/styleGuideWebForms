@@ -21,7 +21,6 @@ use-a-gateway-and-confirmation-screen
 gateway-screen
 confirmation-screen
 formComponents
-section
 component-types
 input-text-field
 best-practices-1
