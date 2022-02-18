@@ -1,4 +1,4 @@
-# Form Components
+# Form Components {#formComponents}
 
 
 
@@ -6,6 +6,20 @@
 https://uxplanet.org/the-anatomy-of-input-field-c3ef863e01d7
 
 ## Component Types
+
+Engles states the top 3 components to use on a form are:
+
+* radio buttons
+* checkboxes
+* text boxes
+for the following reasons: 
+
+* users are familiar with them
+* they work on all screen sizes, including mobile
+* they’re built into the HTML specification
+* they’re accessible 
+* they’re simple to use 
+
 
 ### Input text field
 
@@ -64,8 +78,12 @@ When possible, arrange the radio buttons vertically for easier reading. If the c
 
 ### Dropdowns
 
+The better solution is to use a text box with autosuggest.
+
 ### Links
 Links should open on a new window to preserve cursor position, and flow of form input 
 Should reflect state (visited, active, focus) 
 
+### Buttons
+Short (< 3 word) labels on buttons. A good rule of thumb is to answer the question “I want to…” from the user’s perspective. 
 

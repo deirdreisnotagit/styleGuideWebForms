@@ -1,5 +1,5 @@
 # Form Design {#formDesign}
-#i#
+
 ## Best Practices 
 
 ### Make forms as short as possible
@@ -36,7 +36,7 @@ Ask simpler and less intrusive questions before complex and more intrusive quest
 
 
 #### Keep Related Together 
-The rule of thumb is that more related questions are, the closer they should physically be placed together.  (Demographic info, exam results etc)
+The rule of thumb is that more related questions are, the closer they should physically be placed together. (Demographic info, exam results etc)
 
 ### Use Minimal Color 
 Reserve color for things that need it, so they stand out in some way. Buttons, error messages, links, headings, backgrounds etc are good examples. Be sparing, the more color you use, the less it stands out. Also, you never want to rely solely on color to communicate something in your web form. 
@@ -48,7 +48,7 @@ In order to be considered accessible, form components must meet the following su
 
 The good news is that standard HTML elements already meet these requirements, providing an accessible user experience without additional code to accommodate assistive technology.  It is only if you are using custom elements that you will have to implement the guidelines. you are.
 
-Assuming your form components are accessible, ddd suggests UX design suggests the following 
+Assuming your form components are accessible, ???? suggests UX design suggests the following 
 
 * Ensure the form has a proper contrast between foreground and background: Some people cannot read the text if there is not sufficient contrast between the text and the background (see minimum contrast ratio as required by WCAG.) https://uit.stanford.edu/accessibility/concepts/color/checker
 * Allow users to control text size: 
@@ -69,13 +69,13 @@ Make sure the user can freely navigate through the form without a mouse (e.g. pe
 
 ### Distinguish between Optional and Required fields:
 
-You have a choice to indicate the required fields or the optional fields. Jenifer Enders argues the better approach is to only indicate the optional fields, and she recommends the following steps:
+Try to avoid optional fields in forms. But if you use them, at least clearly distinguish which input fields may not be left blank. The convention is to use an asterisk (*) for required fields or the word “optional” for non-required fields. You have a choice to indicate the required fields or the optional fields. Jenifer Enders argues the better approach is to only indicate the optional fields, and she recommends the following steps:
 
-1. Have an instruction, at the top of each screen, that says: “All questions must be answered, unless marked (optional).”
+1. Have an instruction at the top of each screen that says: “All questions must be answered, unless marked (optional).”
 1. Add “(optional)” to the end of the label for every optional question.
 1. Don’t add any visual markers to required fields.
 
-This method she argues, is highly accessible & usable, in adition to reducing the amount of visual noise.
+This method she argues, is highly accessible & usable, in addition to reducing the amount of visual noise.
 
 ### Align fields
 “illuminate a clear path to completion. Aligning inputs and actions with a strong vertical axis clearly communicates how to go about completing a form.”
@@ -87,7 +87,7 @@ Every page should have the form title and you should display step progress for m
 ### Use a gateway and confirmation screen 
 
 #### Gateway screen 
-should contain A title and friendly message  followed by a brief description of what the respondent can expect from the form., (if they need any documents, how long to complete etc). Address likely concerns (“No credit card required. No Contracts. Cancel anytime”). Can be combined with a login screen. 
+should contain a title and friendly message followed by a brief description of what the respondent can expect from the form, (if they need any documents, how long to complete etc). Address likely concerns (“No credit card required. Cancel anytime”). 
 
 #### Confirmation screen
 Sends a success or fail message and what to expect next. Thank you for completing, successful submission, next steps. Can also send an email confirmation. 

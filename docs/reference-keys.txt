@@ -1,6 +1,5 @@
 introduction
 formDesign
-best-practices
 make-forms-as-short-as-possible
 multiple-screens-or-a-single-page
 keep-a-single-column-format
@@ -23,7 +22,7 @@ confirmation-screen
 form-components
 component-types
 input-text-field
-best-practices-1
+best-practices
 use-field-length-as-an-affordance
 user-should-be-able-to-judge-the-state-of-the-field.
 say-something-here-like-use-appropriate-ddd-and-ssss
@@ -38,6 +37,7 @@ vertically-align-the-buttons
 check-boxes
 dropdowns
 links
+buttons
 methods
 math-example
 applications
