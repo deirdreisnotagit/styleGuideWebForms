@@ -1,10 +1,5 @@
 # Form Components {#formComponents}
 
-
-
-
-https://uxplanet.org/the-anatomy-of-input-field-c3ef863e01d7
-
 ## Component Types
 
 Engles states the top 3 components to use on a form are:
@@ -12,6 +7,7 @@ Engles states the top 3 components to use on a form are:
 * radio buttons
 * checkboxes
 * text boxes
+
 for the following reasons: 
 
 * users are familiar with them
@@ -35,6 +31,8 @@ Field focus should be a visual cue – such as changing the color of the border 
 ##### Say something here like Use appropriate ddd and ssss 
 Specifying an appropriate type attribute (e.g. type="tel" for telephone number fields) will not only control what input is displayed, but also helps mobile devices select a keyboard layout suitable for entering that type of data.
 
+#### Anatomy of a text box 
+
 An input text field consists of the following parts:
 
 1. Container/Border
@@ -44,7 +42,7 @@ An input text field consists of the following parts:
 1. Helper text/Error text (Optional element)
 1. Leading icon (Optional element)
 
-#### Container 
+##### Container 
 Say something about the container
 
 ##### Label 
@@ -58,10 +56,8 @@ Icons can be effective labels when they are easy to decipher, either because the
 https://www.webstyleguide.com/7-interface-design.html
 
 ##### Help text 
-Position the help text between the label and the input field. Don’t use headings, labels or placeholder text for help text.
+Position the help text between the label and the input field. Don’t use headings, labels or placeholder text for help text.^[https://www.stylemanual.gov.au/content-types/forms#choose_accessible_form_inputs]
 
-
-Image from https://www.stylemanual.gov.au/content-types/forms#choose_accessible_form_inputs
 
 
 ### Radio Buttons
@@ -72,7 +68,7 @@ Radio buttons are used for mutually exclusive choices
 Users must be able to scan and compare options to make an appropriate selection 
 
 #####  Vertically align the buttons 
-When possible, arrange the radio buttons vertically for easier reading. If the choice is limited to binary or opposite (light/dark) options, then they can be aligned horizontally.  
+When possible, arrange the radio buttons vertically for easier reading. If the choice is limited to binary or opposite (light/dark) options, then they can be aligned horizontally.  If you are aligning horizontally, make sure to space the buttons and labels so that it's abundantly clear which choice goes with which label. 
 
 ### Check Boxes
 

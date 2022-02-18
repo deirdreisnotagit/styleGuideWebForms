@@ -1,5 +1,6 @@
 introduction
 formDesign
+best-practices
 make-forms-as-short-as-possible
 multiple-screens-or-a-single-page
 keep-a-single-column-format
@@ -19,13 +20,14 @@ let-the-user-know-where-they-are
 use-a-gateway-and-confirmation-screen
 gateway-screen
 confirmation-screen
-form-components
+formComponents
 component-types
 input-text-field
-best-practices
+best-practices-1
 use-field-length-as-an-affordance
 user-should-be-able-to-judge-the-state-of-the-field.
 say-something-here-like-use-appropriate-ddd-and-ssss
+anatomy-of-a-text-box
 container
 label
 input-text-or-placeholder-text
@@ -38,9 +40,11 @@ check-boxes
 dropdowns
 links
 buttons
-methods
-math-example
+form-validation
+validate-as-the-user-types-or-after-the-user-tabls-off-the-field-.
 applications
 example-one
 example-two
 final-words
+methods
+math-example
