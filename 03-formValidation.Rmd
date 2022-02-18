@@ -1,0 +1,32 @@
+# Form Validation {#formValidation}
+
+Validation and error messages indicate when a form or field submission fails.
+
+There are three messages that validation should convey to the user:
+
+1. **An error has occurred**: Display clearly that there is an error in the form, e.g. use a red color and/or an icon such as an exclamation mark (“!”) to attract attention.
+1. **Where the error occurred**: Highlight the field(s) that caused the error. Focus the cursor on the field so the user doesn’t have to search for it. 
+1. **How the error can be repaired**: Provide information on what needs to be different in order for the field to validate. Provide guidance about what to do in response to the error.
+
+All of these components need to be worded in a polite and non-accusatory tone. 
+
+
+### When to validate?
+
+Should you validate as the user types or after the user tabs off the field
+One approach proposes a hybrid — reward early, punish late — model:^https://medium.com/wdstack/inline-validation-in-forms-designing-the-experience-123fb34088ce#.vqbw1xole
+
+
+* If the user is entering the data in the field that was in a valid state, perform the validation after the data entry
+* If the user is entering the data in the field that was in an invalid state, perform the validation during the data entry
+
+
+General rules suggested by 
+https://ux.stackexchange.com/users/10615/matt-obee
+
+* For open-ended questions, give feedback after the user finishes providing an answer (on blur, when they move on to the next field).
+* For questions that the user might need help with sooner (e.g. username and password fields), give feedback while they are typing but use an appropriate delay so that premature error messages don’t frustrate them.
+https://ux.stackexchange.com/questions/74531/form-validation-when-should-error-messages-be-triggered
+
+
+Error and warning messages should  disappear when the criteria is met.

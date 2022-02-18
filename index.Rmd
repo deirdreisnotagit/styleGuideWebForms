@@ -9,12 +9,12 @@ documentclass: book
 bibliography: [book.bib, packages.bib]
 biblio-style: apalike
 link-citations: yes
-description: "Web Forms Style Guide"
+description: "Style Guide for Web Forms"
 ---
 
 # Introduction
 
-In their book _Forms That Work_ , Caroline Jarrett and Gerry Gaffney define a form as "a web page that has boxes you can type into".
+In their book _Forms That Work_ , Caroline Jarrett and Gerry Gaffney define a form as "a web page that has boxes you can type into". 
 
 At its core, the function of a form is to ask questions and record answers given - it's a conversation between two parties.
 
@@ -31,9 +31,14 @@ Who fills out Stanford's forms (who are our users)?
 * Faculty
 * Staff
 
-Can we make any assumptions ?  
+Jarrett & Gaffney describe 3 types of user
 
-Is there any data on our users? 
+* Readers
+* Rushers
+* Refusers
+
+
+Is there any data on our users? Can we make any assumptions ?  
 
 They are smart? 
 

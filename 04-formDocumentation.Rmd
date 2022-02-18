@@ -1,0 +1,34 @@
+# Form Documentation {#formDocumentation}
+
+
+**Question by Question*”.** A QxQ records information about the questions in a form, to assist both current and future design, development and decision-making. 
+
+
+Contents of a QxQ
+
+
+For every question on the form: 
+
+* label
+* question-level help
+* answer field, including
+  * whether answering is required or optional
+  * whether open or closed
+    * if closed:
+      * what type (checkboxes, radio buttons, date picker etc.)
+      * the answer options, in order
+      * whether the answer options are based on, or exactly match, a standard (e.g. ISO 5218: international codes for representing sex electronically, or AS4590: the Australian standard for addresses)
+      * whether the user is allowed to choose more than one option
+      *if there’s an “other” option, whether the user needs to write in their other answer
+    * if open:
+      * the minimum and maximum number of characters the answer must be, if any (e.g. for an email address: minimum of 3 characters, maximum of 256 characters)
+      * which characters need to be accepted (e.g. all alphanumeric characters plus apostrophes, dollar signs, hyphens and spaces)
+relevant HTML5 form input type e.g. tel, email or date
+  * whether question is a determinant of eligibility
+  * any useful notes about the proposed wording, including relevant findings from user research
+  * validation rules, such as allowable minimums and maximums for numbers or dates
+  * relationship to other questions, e.g. conditional or trigger
+  * to which users the question is applicable
+  * who will use the data from the question, and how
+  * any relevant history
+

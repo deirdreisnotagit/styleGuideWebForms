@@ -1,0 +1,18 @@
+`r if (knitr:::is_html_output()) '
+# Resources {-}
+'`
+Enders, J. (2016). * Designing UX: Forms *
+
+https://identity.stanford.edu/design-elements/iconography/
+
+https://support.microsoft.com/en-us/office/get-your-document-s-readability-and-level-statistics-85b4969e-e80a-4777-8dd3-f7fc3c8b3fd2?ui=en-us&rs=en-us&ad=us
+
+https://centerforplainlanguage.org/learning-training/five-steps-plain-language/
+
+https://identity.stanford.edu/wp-content/uploads/2020/09/Project_Outline_Sheet-v7.pdf
+
+https://adamsilver.io/blog/where-to-put-buttons-on-forms/
+
+https://learnui.design/blog/the-3-laws-of-locality.html
+
+
