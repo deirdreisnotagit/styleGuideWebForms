@@ -21,6 +21,7 @@ use-a-gateway-and-confirmation-screen
 gateway-screen
 confirmation-screen
 formComponents
+section
 component-types
 input-text-field
 best-practices-1
@@ -43,3 +44,4 @@ buttons
 formValidation
 when-to-validate
 formDocumentation
+formTesting

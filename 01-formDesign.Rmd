@@ -3,10 +3,10 @@
 ## Best Practices 
 
 ### Make forms as short as possible
-Every additional question on a form reduces the completion rate and data quality, while also increasing the rate of errors. Ask yourself if the question/information can be inferred, postponed, or completely excluded. ^[https://medium.com/nextux/form-design-best-practices-9525c321d759]
+Every additional question on a form reduces the completion rate and data quality, while also increasing the rate of errors. Ask yourself if the question/information can be inferred, postponed, or completely excluded.^[https://medium.com/nextux/form-design-best-practices-9525c321d759]
 
 ### Multiple screens or a single page? 
-If there are only one or two topics, a single page form is the way to go. But if a form has multiple sections, multiple pages are required to break up the conversation. Limit the display to five to seven input fields at a given time.^[https://xd.adobe.com/ideas/principles/web-design/best-practices-form-design/]. Jessica Enders, in her book _Designing UX: Forms _ suggests the following formula for determining if multiple screen are appropriate. 
+If there are only one or two topics, a single page form is the way to go. But if a form has multiple sections, multiple pages are required to break up the conversation. Limit the display to five to seven input fields at a given time.^[https://xd.adobe.com/ideas/principles/web-design/best-practices-form-design/]
 
 1. Find out the most common screen sizes—including mobile and tablet—for your target audience (that is, the sizes that are used by at least 60% of people who’ll use your form).
 2. If the form can fit on three or fewer screenfuls of the most common sizes, leave it as one screen.
