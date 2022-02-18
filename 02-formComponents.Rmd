@@ -56,7 +56,8 @@ Icons can be effective labels when they are easy to decipher, either because the
 https://www.webstyleguide.com/7-interface-design.html
 
 ##### Help text 
-Position the help text between the label and the input field. Don’t use headings, labels or placeholder text for help text.^[https://www.stylemanual.gov.au/content-types/forms#choose_accessible_form_inputs]
+Position the help text between the label and the input field. Don’t use headings, labels or placeholder text for help. text.^[https://www.stylemanual.gov.au/content-types/forms#choose_accessible_form_inputs]
+Don’t repeat the label or explain the obvious (eg fill in your first name).
 
 
 

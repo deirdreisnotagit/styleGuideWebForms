@@ -40,11 +40,6 @@ check-boxes
 dropdowns
 links
 buttons
-form-validation
-validate-as-the-user-types-or-after-the-user-tabls-off-the-field-.
-applications
-example-one
-example-two
-final-words
-methods
-math-example
+formValidation
+when-to-validate
+formDocumentation
