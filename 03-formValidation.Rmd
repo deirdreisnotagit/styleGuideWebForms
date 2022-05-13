@@ -10,6 +10,14 @@ There are three messages that validation should convey to the user:
 
 All of these components need to be worded in a polite and non-accusatory tone. 
 
+Avoid phrases like“You did,” “Your action caused.”
+Some error messages are phrased in a way that accuses the user of making an error; errors are already frustrating, and there’s no need to add to frustration with judgment. In the end, these messages are an important, albeit, small way that we communicate and build relationships with our users. Always focus on the problem, not the user action that led to the problem. 
+
+Here are two ways you can handle a situation when the user enters incorrect login credentials:
+
+Don’t say: You have entered an incorrect login or password.
+Do say: Your login and password do not match.
+https://xd.adobe.com/ideas/process/information-architecture/error-message-design-ux/
 
 ### When to validate?
 
