@@ -14,7 +14,7 @@ description: "Style Guide for Web Forms"
 
 # Introduction
 
-In their book _Forms That Work_ , Caroline Jarrett and Gerry Gaffney define a form as "a web page that has boxes you can type into". 
+<!-- In their book _Forms That Work_ , Caroline Jarrett and Gerry Gaffney define a form as "a web page that has boxes you can type into".  -->
 
 At its core, the function of a form is to ask questions and record answers given - it's a conversation between two parties.
 
